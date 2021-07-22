@@ -1,7 +1,5 @@
 #include "yespower.h"
-/* 
- * yespower for bitweb coin
- */
+
 int yespower_hash(const char *input, char *output)
 {
 	yespower_params_t params = {YESPOWER_1_0, 2048, 32, NULL, 0};
