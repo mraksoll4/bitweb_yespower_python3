@@ -1,16 +1,16 @@
-git clone https://github.com/bitweb-project/bitweb_yespower_python3
+git clone https://github.com/mraksoll4/ltfn_yespower_python3
 
-cd bitweb_yespower_python3
+cd ltfn_yespower_python3
 
 sudo python3 setup.py install
 
-import bitweb_yespower
+import ltfn_yespower
 
 or 
 
-https://pypi.org/project/bitweb-yespower/#files
+https://pypi.org/project/ltfn-yespower/#files
 
-python3.7 -m pip install bitweb-yespower
+python3.7 -m pip install ltfn-yespower
 
 How to compile at windows ?
 
@@ -47,7 +47,7 @@ dlltool --dllname python3.dll --def python3.def --output-lib libpython3.a
 pexports python38.dll >python38.def
 dlltool --dllname python38.dll --def python38.def --output-lib libpython38.a
 
-Open another command line windows and go there to bitweb-yespower source code folder.
+Open another command line windows and go there to ltfn-yespower source code folder.
 
 Run at folder - python3 setup.py build --compile=mingw32
 
