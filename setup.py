@@ -10,7 +10,7 @@ ltfn_yespower_module = Extension('ltfn_yespower',
                             include_dirs=['.'])
 
 setup (name = 'ltfn_yespower',
-       version = '1.0.0',
+       version = '1.0.2',
        author_email = 'mraksoll4@gmail.com',
        author = 'mraksoll',
        url = 'https://github.com/mraksoll4/ltfn_yespower_python3',
